@@ -192,41 +192,6 @@
 <td>400</td>
 </tr>
 <tr>
-<td>InvalidThumbnailContent</td>
-<td>The specified thumbnail source bucket is empty.</td>
-<td>400</td>
-</tr>
-<tr>
-<td>InvalidThumbnailBucket</td>
-<td>The specified thumbnail source bucket is empty</td>
-<td>400</td>
-</tr>
-<tr>
-<td>InvalidThumbnailKey</td>
-<td>The specified thumbnail source key is empty</td>
-<td>400</td>
-</tr>
-<tr>
-<td>InvalidThumbnailKeyPrefix</td>
-<td>The specified thumbnail key prefix is not valid</td>
-<td>400</td>
-</tr>
-<tr>
-<td>InvalidThumbnailMode</td>
-<td>The specified thumbnail mode is not valid.</td>
-<td>400</td>
-</tr>
-<tr>
-<td>InvalidThumbnailFormat</td>
-<td>The specified thumbnail format is not valid.</td>
-<td>400</td>
-</tr>
-<tr>
-<td>InvalidThumbnailCount</td>
-<td>The specified thumbnail count is not valid.</td>
-<td>400</td>
-</tr>
-<tr>
 <td>InvalidCompressType</td>
 <td>打包类型不合法，仅支持zip</td>
 <td>400</td>
