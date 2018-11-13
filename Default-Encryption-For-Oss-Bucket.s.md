@@ -6,7 +6,7 @@ OSS默认加密提供了一种方法来设置存储空间的默认加密行为�
 
 默认加密适用于所有现有的和新的OSS存储空间，更改存储空间的默认加密设置，不会对已经保存在存储空间的文件产生影响。存储空间的默认加密，为加密整个存储空间的对象提供了便利，目前不支持使用您创建KMS客户主密钥 (CMK) 加密您的文件，仅支持KMS提供的服务秘钥加密。
 
-对 OSS 存储空间使用默认加密不会产生新的费用。使用S3 API 请求配置默认加密功能会产生标准OSS请求费用。具体请求定价请参阅 [OSS计费规则](https://docs.jdcloud.com/cn/object-storage-service/billing-rules)对于 SSE-KMS 加密密钥存储，产生 Key Management Service 的费用，免费。
+对 OSS 存储空间使用默认加密不会产生新的费用。使用S3 API 请求配置默认加密功能会产生标准OSS请求费用。具体请求定价请参阅 [OSS计费规则](https://docs.jdcloud.com/cn/object-storage-service/billing-rules)对于 SSE-KMS 加密密钥存储， Key Management Service（KMS） 的费用免费。
 
 
 ## OSS静态加密主要应用场景 
