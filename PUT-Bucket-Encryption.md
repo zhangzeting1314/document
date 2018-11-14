@@ -68,7 +68,7 @@ Date: Wed, 06 Sep 2017 12:00:00 GMT
 Authorization: authorization string
 Content-Length: length
 
-<ServerSideEncryptionConfiguration>
+<ServerSideEncryptionConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/" >
   <Rule>
     <ApplyServerSideEncryptionByDefault>
         <SSEAlgorithm>aws:kms</SSEAlgorithm>
@@ -80,11 +80,13 @@ Content-Length: length
  返回示例：
  
    ```
-HTTP/1.1 100 Continue
 HTTP/1.1 200 OK
-x-amz-request-id: E0DE682C2FDDBCF8
-Date: Wed, 06 Sep 2017 12:00:00 GMT
+Server: JDCloudOSS
+Date: Wed, 14 Nov 2018 03:50:29 GMT
 Content-Length: 0
+Connection: keep-alive
+x-req-id: A8D4BE3AD5D9B626
+x-amz-request-id: A8D4BE3AD5D9B626
 
   ```
   
