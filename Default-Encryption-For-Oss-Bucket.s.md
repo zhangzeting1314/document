@@ -28,7 +28,10 @@ GetObject
 HeadObject
 Meta信息
 通过服务器端加密-KMS托管主密钥模式存储的Object，对象的Meta信息会增加以下字段：
-| | |
+
+|名称|描述|示例|
+|:-|:-|:-|
+|x-aws-server-side-encryption|指定服务端加密方式|x-aws-server-side-encryption：aws-kms|
 
 ##  使用OSS管理控制台，设置默认加密
 
@@ -47,7 +50,7 @@ Meta信息
 
 **相关API参考**
 （文档上线前会替换真实的链接的）
--  设置存储空间默认加密 [PUT Bucket encryption](../../../../intl.zh-CN/API 参考/关于Object操作/AppendObject.md#)
--  除存储空间默认加密 [DELETE Bucket encryption](../../../../intl.zh-CN/API 参考/关于Object操作/PutObject.md#)
--  获取存储空间默认加密设置 [GET Bucket encryption](../../../../intl.zh-CN/API 参考/关于Object操作/CopyObject.md#)
+-  设置存储空间默认加密  [PUT Bucket encryption] (../../../../intl.zh-CN/API 参考/关于Object操作/AppendObject.md#)
+-  除存储空间默认加密  [DELETE Bucket encryption] (../../../../intl.zh-CN/API 参考/关于Object操作/PutObject.md#)
+-  获取存储空间默认加密设置  [GET Bucket encryption] (../../../../intl.zh-CN/API 参考/关于Object操作/CopyObject.md#)
 
