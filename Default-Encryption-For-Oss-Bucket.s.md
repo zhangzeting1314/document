@@ -16,6 +16,19 @@ OSS通过服务端加密机制，提供静态数据保护。适合于用户对�
 需要注意的是为存储空间启用默认加密后，将会应用以下加密行为：
  * 在启用默认加密之前，存储空间中已存在的对象的加密没有变化。
  * 目前仅支持对存储空间级别的加密，如果您使用 S3 API 中的put object创建Object时，即使请求中携带x-aws-server-side-encryption 的HTTP Header也是无效设置。
+ 
+同时通过服务器端加密存储的Object，以下API请求中OSS会返回x-aws-server-side-encryption头：
+
+PutObject
+CopyObject
+InitiateMultipartUpload
+UploadPart
+CompleteMultipartUpload
+GetObject
+HeadObject
+Meta信息
+通过服务器端加密-KMS托管主密钥模式存储的Object，对象的Meta信息会增加以下字段：
+| | |
 
 ##  使用OSS管理控制台，设置默认加密
 
