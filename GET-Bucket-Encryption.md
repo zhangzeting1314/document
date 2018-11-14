@@ -37,7 +37,7 @@ Content-Length:  0
 |ApplyServerSideEncryptionByDefault|服务器端默认bucket加密方式的集合<br>子节点：SSEAlgorithm, KMSMasterKeyID<br>父节点：Rule|
 |Rule|服务器端默认bucket加密方式的配置集合<br>子节点：ApplyServerSideEncryptionByDefault<br>父节点：ServerSideEncryptionConfiguration|
 |ServerSideEncryptionConfiguration|服务器端默认bucket加密方式的具体配置集合<br>子节点：Rule<br>父节点：无|
-|SSEAlgorithm|服务器端默认bucket的加密算法<br>有效值：aws:kms<br>限制：只能用于ApplyServerSideEncryptionByDefault之内<br>父节点：ApplyServerSideEncryptionByDefault<br>如果您使用旧版OSS API 实现服务端加密则返回AES128|
+|SSEAlgorithm|服务器端默认bucket的加密算法<br>有效值：aws:kms<br>限制：只能用于ApplyServerSideEncryptionByDefault之内<br>父节点：ApplyServerSideEncryptionByDefault|
 
  ### 特殊错误
   
