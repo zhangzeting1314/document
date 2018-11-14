@@ -44,9 +44,14 @@ Authorization: signatureValue   (使用签名版本4)
 响应示例：
   
 ```
-HTTP/1.1 204 No Content
-x-amz-request-id: 0CF038E9BCF63097
-Date: Wed, 06 Sep 2017 12:00:00 GMT
+HTTP/1.1 200 OK
+Server: JDCloudOSS
+Date: Wed, 14 Nov 2018 03:48:31 GMT
+Content-Length: 0
+Connection: keep-alive
+x-req-id: 9DD9D36C74E86398
+x-amz-request-id: 9DD9D36C74E86398
+
 
 ```
 
