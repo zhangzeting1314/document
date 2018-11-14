@@ -45,14 +45,24 @@ Content-Length:  0
   
 ### 返回示例：
   ```
+HTTP/1.1 200 OK
+Server: JDCloudOSS
+Date: Wed, 14 Nov 2018 03:50:32 GMT
+Content-Type: text/xml;charset=UTF-8
+Content-Length: 292
+Connection: keep-alive
+Vary: Accept-Encoding
+x-req-id: 9DFB131D1820AD65
+x-amz-request-id: 9DFB131D1820AD65
+
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <ServerSideEncryptionConfiguration>
     <Rule>
         <ApplyServerSideEncryptionByDefault>
-             <SSEAlgorithm>aws:kms</SSEAlgorithm>
+            <SSEAlgorithm>aws:kms</SSEAlgorithm>
         </ApplyServerSideEncryptionByDefault>
     </Rule>
 </ServerSideEncryptionConfiguration>
-
 
   ```
  
