@@ -61,7 +61,7 @@ HeadObject
 
 **相关API参考**
 （文档上线前会替换真实的链接的）
--  设置存储空间默认加密  [PUT Bucket encryption] (../../../../intl.zh-CN/API 参考/关于Object操作/AppendObject.md#)
--  除存储空间默认加密  [DELETE Bucket encryption] (../../../../intl.zh-CN/API 参考/关于Object操作/PutObject.md#)
--  获取存储空间默认加密设置  [GET Bucket encryption] (../../../../intl.zh-CN/API 参考/关于Object操作/CopyObject.md#)
+-  设置存储空间默认加密  [PUT Bucket encryption]  (./PUT-Bucket-encryption.md)
+-  除存储空间默认加密  [DELETE Bucket encryption]  (../PUT-Bucket-encryption.md)
+-  获取存储空间默认加密设置  [GET Bucket encryption]  (../PUT-Bucket-encryption.md)
 
