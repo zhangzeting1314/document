@@ -5,7 +5,7 @@
 ## 请求语法
  
 ```
-DELETE  /eric-jdcloud/?encryption  HTTP/1.1
+DELETE /eric-jdcloud/?encryption HTTP/1.1
 Host: <bucket>.s3.<region>.jcloudcs.com
 Date: Wed, 06 Sep 2018 12:00:00 GMT
 Authorization: authorization string  (使用签名版本4)
@@ -34,7 +34,7 @@ Authorization: authorization string  (使用签名版本4)
   请求示例：
   
 ```
-DELETE  /eric-jdcloud/?encryption  HTTP/1.1
+DELETE /eric-jdcloud/?encryption HTTP/1.1
 Host: examplebucket.s3.cn-north-1.jcloudcs.com
 Date: Wed, 06 Sep 2018 12:00:00 GMT
 Authorization: signatureValue   (使用签名版本4)
